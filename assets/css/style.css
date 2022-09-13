@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 10px;
@@ -11,7 +12,7 @@ body {
 }
 
 
-
+/*Header styles*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ body {
     font-size: 50px;
 }
 
+/*Navigation link styles*/
 .header nav {
     padding-top: 15px;
     margin-right: 150px;
@@ -32,6 +34,7 @@ body {
     font-size: 20px;
 }
 
+/*Contact me links*/
 .contact-me img {
     max-width: 25%;
 }
@@ -45,6 +48,7 @@ body {
 #gmaillink {
 }
 
+/*footer styles*/
 .footer {
     padding: 30px;
     clear: both;
