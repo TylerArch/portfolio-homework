@@ -24,30 +24,30 @@
 <!-- This is the header -->
 
     <header class="header">
-        <img src="./assets/images/IMG_6468.JPG" alt="Picture of me" width=150px height=200px/>
         <nav>
-            <h1>Tyler Arch's Portfolio</h1>
-                <ul>
-                    <li>
-                        <a href="#aboutme">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#mywork">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contactme">Contact Me</a>
-                    </li>
-                </ul>
+            <ul class="page-nav">
+                <li>
+                    <a href="#aboutme">About Me</a>
+                </li>
+                <li>
+                    <a href="#mywork">My Work</a>
+                </li>
+                <li>
+                    <a href="#contactme">Contact Me</a>
+                </li>
+            </ul>
+            <h1>Tyler Arch's Portfolio</h1>  
             </h1>
         </nav>
     </header>
-
+    
     <!--About me section-->
 
     <main class="content">
         <section class="about-me">
             <div class="heading">
                 <h2 id="aboutme">About Me</h2>
+                <img class ="tyler" src="./assets/images/IMG_6468.JPG" alt="Picture of me" width=150px height=200px/> 
                     <ul>
                         <p>I am married with two beautiful children ages 6 and 9</p>
                         <p>I was born in San Francisco, CA in 1978</p>
@@ -63,12 +63,16 @@
         <section class="my-work">
             <div class="heading">
                 <h2 id="mywork">My Work</h2>
-                    <ul>
-                        <li><a href="file:///Users/TylerArch_1/bootcamp/homework/01-code-refactor/index.html" target="_blank"> <img src="./assets/images/Horiseon.png"></a>
-                        </li>
-                        <li><a href="file:///Users/TylerArch_1/bootcamp/homework/02-portfolio/index.html" target="_blank"> <image src="./assets/images/Portfolio.png"></a>
-                        </li>
-                    </ul>
+                <h3 class="project1-title">Code Refactor</h3>
+                <div class="projects">
+                    <div class="project1">
+                        <a href="file:///Users/TylerArch_1/bootcamp/homework/01-code-refactor/index.html" target="_blank"></a>
+                    </div>
+                    <h3 class="project2-title">Personal Portfolio</h3>
+                    <div class="project2">
+                        <a href="file:///Users/TylerArch_1/bootcamp/homework/02-portfolio/index.html" target="_blank"></a>
+                    </div>
+                </div>     
 
             </div>
         </section>
@@ -78,14 +82,11 @@
         <section class="contact-me">
             <div class="heading">
                 <h2 id="contactme">My Socials</h2>
-                    <ul>
-                        <li><a id="githublink" href="https://github.com/TylerArch" target="_blank"> <img src="./assets/images/GitHub pic.jpeg"></a>
-                        </li>
-                        <li><a id="linkedinlink" href="https://www.linkedin.com/in/tyler-arch-38ba5a22/" target="_blank"> <image src="./assets/images/linkedIn pic.webp"></a>
-                        </li>
-                        <li><a id="gmaillink" href="mailto:tyler.c.arch@gmail.com" target="_blank"> <img src="./assets/images/Google pic.png"></a>
-                        </li>
-                    </ul>
+                    <div class="contact-container">
+                        <a id="githublink" href="https://github.com/TylerArch" target="_blank"> <img src="./assets/images/GitHub pic.jpeg"></a>
+                        <a id="linkedinlink" href="https://www.linkedin.com/in/tyler-arch-38ba5a22/" target="_blank"> <image src="./assets/images/linkedIn pic.webp"></a>
+                        <a id="gmaillink" href="mailto:tyler.c.arch@gmail.com" target="_blank"> <img src="./assets/images/Google pic.png"></a>
+                    </div>
 
             </div>
         </section>
